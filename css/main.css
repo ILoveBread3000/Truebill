@@ -1,0 +1,237 @@
+@import url("reset.css");
+@import url("nav.css");
+@import url("button.css");
+
+:root {
+	--color-blue: #1c7af9;
+	--text-gray: #6a7686;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+.clear{
+	clear: both;
+}
+
+.container {
+	margin: auto;
+	max-width: 1096px;
+}
+
+.joinus-con{
+	height: 554px;
+}
+
+.skipHeader {
+	padding-top: 76px;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 70px;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+p {
+	font-size: 20px;
+	color: var(--text-gray);
+}
+
+.section {
+	width: 100%;
+}
+
+.banner {
+	width: 600px;
+	font-size: 20px;
+	padding-top: 120px;
+}
+
+.bannerBackground {
+	background-color: #fbf9f5;
+	background-image: linear-gradient(135deg, #fbf9f5, #fff0d3);
+	height: 740px;
+}
+
+.stayonBackground {
+	background-color: #fbf9f5;
+	height: 690px;
+}
+
+.PeopleBackground {
+	background-color: #fbf9f5;
+	height: 850px;
+}
+
+.joinus {
+	width: 650px;
+	padding-top: 100px;
+}
+
+.joinus p {
+	font-size: 16px;
+}
+
+.stars{
+	float: left;
+	padding-right: 16px;
+}
+
+.WeWorked{
+	padding-top: 32px;
+	width: 380px;
+}
+
+.brand-logo{
+	margin-right: 24px;
+}
+
+.store-badges{
+	display: block;
+	margin-top: 40px;
+}
+
+.store-badges-wrappers{
+	display: -webkit-box;
+ 	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+
+.store-logos{
+	margin-right: 16px;
+}
+
+.control-sub-con{
+	height: 754px;
+}
+
+.wrapper-control{
+	padding-top: 144px;
+	padding-bottom: 144px;
+}
+
+.wrapper-s{
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+
+.features-wrapper{
+	padding-top: 64px;
+	padding-bottom: 144px;
+}
+
+.yoga-img{
+	width: 450px;
+	float: left;
+}
+
+.caffee-img{
+	width: 450px;
+	float: right;
+}
+
+.control-text{
+	width: 450px;
+	float: right;
+}
+
+.control-text2{
+	width: 450px;
+	float: left;
+}
+
+.stay-on-con{
+	height: 690px;
+}
+
+.features-title{
+	text-align: center;
+}
+
+.feature-blocks{
+	height: 720px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-block-wrapper{
+	width: 360px;
+	height: 360px;
+	flex-shrink: 0;
+	padding: 40px 32px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.feature-item-image{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.feature-item-h{
+	margin-top: 16px;
+  	font-weight: 700;
+  	text-align: center;
+}
+
+.people-wrapper{
+	padding-top: 112px;
+}
+
+.People-title{
+	display: flex;
+	justify-content: center
+}
+
+.h-large{
+	font-size: 72px;
+	line-height: 112%;
+	font-weight: 700;
+}
+
+.img-heart{
+	margin-right: 16px;
+  	margin-left: 16px;
+}
+
+.p-people{
+	width: 388px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.footpage{
+	height: 850px;
+}
+
+.footpage-wrapper{
+	margin-top: 144px;
+	margin-bottom: 144px;
+}
+
+.get-started-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-height: 160px;
+}
+
+.get-started-info {
+	max-width: 550px;
+}
+
+.get-started-title {
+	color: #1c7af9;
+	font-size: 56px;
+}

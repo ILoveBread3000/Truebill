@@ -1,0 +1,32 @@
+.button {
+	font-size: inherit;
+	padding: 12px 24px 10px 24px;
+	border-radius: 100px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.buttonPrimary {
+	color: #fff;
+	border: var(--color-blue) solid 2px;
+	background-color: var(--color-blue);
+}
+
+.learn-more-button{
+	color: var(--color-blue);
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.learn-more-button:hover{
+	text-decoration: underline;
+}
+
+.comingsoon-button{
+	color: #A9CDFD;
+	font-weight: bold;
+	font-size: 20px;
+}
